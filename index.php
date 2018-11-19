@@ -9,12 +9,12 @@
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-	    <a class="navbar-brand" href="#Inicio">PROTOTIPO FORMULARIO</a>
+	    <a class="navbar-brand" href="index.php">PROTOTIPO</a>
 	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 	      <li class="nav-item active">
 	        <a class="nav-link" href="#Cajero">Cajero <span class="sr-only">(current)</span></a>
@@ -30,12 +30,74 @@
 	</nav>
 
 	<div class="card">
-	  <div class="card-body">
-	    <p>This is some text within a card body.</p>
-	    <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Anterior</button></a>
-	    <a href="pregunta1.php"><button type="button" class="btn btn-primary btn-lg">Siguiente</button></a>
-	  </div>
-	</div>	
-		</div>
+	  	<div class="card-body">
+	    	<div class="row">
+  				<div class="col-md-4" align="center"></div>
+  					<div class="col-md-4"><center><img src="images/tsalud.png" alt="logotipo de salud" width=300 height=300></center></div>
+  					<div class="col-md-4"></div>
+				</div>
+				<div class="row">
+	  				<div class="col-md-12"><center><h1>Prototipo Sistema</h1></center></div>
+	  			</div>	  				    		
+	  		</div>	  		
+	  	</div>	
+	</div>
+
+	<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
 	</body>
 	</html>

@@ -29,13 +29,10 @@
 	  </div>
 	</nav>
 
-	<div class="card">
-	  <div class="card-body">
-	    <p>1. Esta es la pregunta 1</p>
-	    <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Anterior</button></a>
-	    <a href="pregunta2.php"><button type="button" class="btn btn-primary btn-lg">Siguiente</button></a>
-	  </div>
-	</div>	
-		</div>
+
+	    		<a href="index.php"><button type="button" class="btn btn-primary btn-lg">Anterior</button></a>
+	    		<a href="pregunta2.php"><button type="button" class="btn btn-primary btn-lg">Siguiente</button></a>
+
+
 	</body>
 	</html>
