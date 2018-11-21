@@ -488,7 +488,7 @@
         <div class="col-md-11">
         </div>
 
-    <!-- Bloque de Urología -->
+    <!-- Boton -->
         <div class="col-md-1">
             <input type="submit" value="Siguiente" class="btn btn-outline-success" />
         </div>

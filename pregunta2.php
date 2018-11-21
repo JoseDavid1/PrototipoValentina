@@ -39,10 +39,6 @@
 		</div>
 
 
-		<?php
-		if(isset($_REQUEST["option1"])){
-			echo "Se selecciono la opcion 1";
-		}
-	?>
+
 	</body>
 	</html>
