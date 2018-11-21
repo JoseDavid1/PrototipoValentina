@@ -1,5 +1,5 @@
 	<!DOCTYPE html>
-	<html>
+	<html lang="es">
 	<head>
 		<title>pregunta1</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous>
@@ -17,7 +17,7 @@
 	    <a class="navbar-brand" href="index.php">PROTOTIPO</a>
 	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="cajero.php">Cajero <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#Cajero">Cajero <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item active">
 	        <a class="nav-link" href="#Encuesta">Encuesta <span class="sr-only">(current)</span></a>
@@ -29,16 +29,46 @@
 	  </div>
 	</nav>
 
-	<div class="card">
-	  <div class="card-body">
-	  <!--  <p>2. Esta es la pregunta 2</p> -->
+		<br>
+		<h1>Datos del paciente</h1>
+		<form>
+
+  			<div class="row">
+  				<div class="col-md-2">
+  				</div>
+				<div class="col-xs-12 col-md-8">
+					<div class="form-group">
+    				<label for="exampleFormControlInput1">DPI</label>
+    				<input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="DPI sin espacios">
+  					</div>
+				</div>
+			</div>
+
+			<div class="row">
+  				<div class="col-md-2">
+  				</div>
+				<div class="col-xs-12 col-md-8">
+					<div class="form-group">
+    				<label for="exampleFormControlInput1">Nombre</label>
+    				<input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Nombre del paciente">
+  					</div>
+				</div>
+			</div>
+
+			<div class="row">
+  				<div class="col-md-2">
+  				</div>
+				<div class="col-xs-12 col-md-8">
+					<div class="form-group">
+    				<label for="exampleFormControlInput1">Apellidos</label>
+    				<input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Apellidos del paciente">
+  					</div>
+				</div>
+			</div>
+
+
 	    <a href="pregunta1.php"><button type="button" class="btn btn-primary btn-lg">Anterior</button></a>
 	    <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Siguiente</button></a>
-	  </div>
-	</div>	
-		</div>
-
-
 
 	</body>
 	</html>
