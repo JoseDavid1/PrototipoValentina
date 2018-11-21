@@ -20,7 +20,7 @@
 	        <a class="nav-link" href="#Cajero">Cajero <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#Encuesta">Encuesta <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="prueba.php">Encuesta <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item active">
 	        <a class="nav-link" href="#Consulta">Consulta <span class="sr-only">(current)</span></a>

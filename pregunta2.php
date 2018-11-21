@@ -31,11 +31,18 @@
 
 	<div class="card">
 	  <div class="card-body">
-	    <p>2. Esta es la pregunta 2</p>
+	  <!--  <p>2. Esta es la pregunta 2</p> -->
 	    <a href="pregunta1.php"><button type="button" class="btn btn-primary btn-lg">Anterior</button></a>
 	    <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Siguiente</button></a>
 	  </div>
 	</div>	
 		</div>
+
+
+		<?php
+		if(isset($_REQUEST["option1"])){
+			echo "Se selecciono la opcion 1";
+		}
+	?>
 	</body>
 	</html>
